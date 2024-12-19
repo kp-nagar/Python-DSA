@@ -25,3 +25,10 @@ Theta (Θ) – Average Case
 Big O (O) - Worst Case 
   • What it means: Big O (O) describes the worst-case scenario for an algorithm. 
   • In simple terms: It tells you the slowest an algorithm can run in the worst circumstances.
+
+
+Other Concepts: 
+• Drop Non-Dominant Terms 
+  • In O(n2 + n), focus on O(n2) as it will dominate for large n. 
+• Drop Constants 
+  • O(2n) simplifies to O(n).
